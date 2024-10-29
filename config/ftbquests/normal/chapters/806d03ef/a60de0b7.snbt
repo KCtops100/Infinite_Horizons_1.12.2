@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"ef63e10b",
+		"85caeeff"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "20e6630b",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	}]
+}

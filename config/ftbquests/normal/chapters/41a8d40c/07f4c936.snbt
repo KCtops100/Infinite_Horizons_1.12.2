@@ -1,0 +1,29 @@
+{
+	icon: "tconstruct:smeltery_controller",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"de7f0c5e"
+	],
+	tasks: [{
+		uid: "a2fedf51",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}]
+	},
+	{
+		uid: "4841bc5e",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	},
+	{
+		uid: "bf1ccd82",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

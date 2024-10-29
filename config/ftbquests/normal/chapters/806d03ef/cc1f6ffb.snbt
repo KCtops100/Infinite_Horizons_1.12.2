@@ -1,0 +1,71 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"fa92897b",
+		"ab05dbf2"
+	],
+	tasks: [{
+		uid: "099eac86",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:hammer_tconstruct",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 165,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 132,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"stone",
+						"stone"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"cheapskate",
+					"cheap"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

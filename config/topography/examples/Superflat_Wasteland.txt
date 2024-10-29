@@ -1,0 +1,6 @@
+addBiomes("biomesoplenty:wasteland")
+layers = new LayerGenerator()
+layers.addLayer(1~63, <biomesoplenty:dried_sand>)
+addGenerator(layers)
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)

@@ -1,0 +1,8 @@
+addBiomes("minecraft:plains")
+setSpawnStructure("oak_tree", 64)
+layers = new LayerGenerator()
+layers.addLayer(1~1, <minecraft:bedrock>)
+layers.addLayer(2~62, <minecraft:dirt>)
+layers.addLayer(63~63, <minecraft:grass>)
+addGenerator(layers)
+generateVillage()

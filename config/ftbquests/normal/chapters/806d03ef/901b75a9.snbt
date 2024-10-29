@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"9f54f279"
+	],
+	tasks: [{
+		uid: "9b90dfc8",
+		type: "item",
+		icon: "minecraft:crafting_table",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "workbench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any workbench"
+				}
+			}
+		}],
+		consume_items: true
+	}]
+}

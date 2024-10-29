@@ -1,0 +1,8 @@
+addBiomes("minecraft:desert")
+layers = new LayerGenerator()
+layers.addLayer(1~1, <minecraft:bedrock>)
+layers.addLayer(2~60, <minecraft:sandstone>)
+layers.addLayer(61~63, <minecraft:sand>)
+addGenerator(layers)
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
